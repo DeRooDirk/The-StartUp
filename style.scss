@@ -308,7 +308,7 @@
     background-position: center;
     background-attachment: fixed;
     background-color: rgba(204, 204, 204, 0.207);
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -444,7 +444,7 @@
 
 /* --Footer Secton -- */
 .footer {
-    height: 60vh;
+    
     width: 100%;
     background-color: rgb(32, 32, 33);
 
@@ -494,18 +494,20 @@
         }
 
         .footer-bottom {
-            margin-top: 80px;
+           
             display: flex;
             justify-content: space-between;
             border-top: 1px solid red;
             width: 90%;
-            padding-top: 50px;
+            
+           
 
 
             .cc {
                 list-style: none;
                 display: flex;
                 flex-wrap: wrap;
+                margin: 20px 0px;
             }
 
             .cc li a {
@@ -521,13 +523,14 @@
             }
 
             .footer-copyright {
+                
                 .p {
                     color: green;
                     font-family: 'Lato', sans-serif;
                     font-weight: 400;
                     font-size: 0.8rem;
                     letter-spacing: 1px;
-
+                    margin: 20px 0px;
                 }
 
                 a {
