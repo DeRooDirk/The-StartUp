@@ -283,7 +283,7 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-color: rgba(56, 54, 54, 0.9);
+  background-color: rgba(56, 54, 54, 0.4);
   border-radius: 25px;
   opacity: 0;
   -webkit-transition: 0.5;
