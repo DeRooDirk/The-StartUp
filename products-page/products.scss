@@ -23,6 +23,8 @@ body {
         font-size: 4rem;
         font-weight: 700;
         color: $christmasgreen;
+        letter-spacing: 1px;
+        
     }
 
     .intro {
@@ -149,7 +151,7 @@ img {
 //*** FILTER ***///
 
 .filter-buttons {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding: 1rem 0;
     font-family: $normalfont;
@@ -166,6 +168,9 @@ img {
     font-family: $normalfont;
     border-radius: 15px;
     outline: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
 }
 
 .control:hover {

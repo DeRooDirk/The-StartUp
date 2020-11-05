@@ -23,6 +23,7 @@ body {
   font-size: 4rem;
   font-weight: 700;
   color: #206a5d;
+  letter-spacing: 1px;
 }
 
 .products .intro {
@@ -146,7 +147,7 @@ img {
 }
 
 .filter-buttons {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   padding: 1rem 0;
   font-family: "Open Sans", sans-serif;
@@ -164,6 +165,8 @@ img {
   font-family: "Open Sans", sans-serif;
   border-radius: 15px;
   outline: none;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .control:hover {
