@@ -43,6 +43,8 @@ img {
   margin: 2rem;
   position: relative;
   width: 95%;
+  -webkit-box-shadow: 1px 15px 15px -8px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 15px 15px -8px rgba(0, 0, 0, 0.5);
 }
 
 .product .content {
