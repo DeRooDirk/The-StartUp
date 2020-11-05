@@ -356,6 +356,11 @@ img {
   text-decoration: none;
 }
 
+.footer .container .footer-bottom .footer-copyright span {
+  font-size: 0.4rem;
+  margin: 0 auto;
+}
+
 .scrollToTop {
   background: transparent none repeat scroll 0 0;
   border: 1px solid transparent;
