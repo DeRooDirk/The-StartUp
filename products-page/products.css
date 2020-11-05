@@ -94,6 +94,7 @@ img {
   background-color: transparent;
   border: 1px solid red;
   border-radius: 15px;
+  outline: none;
 }
 
 .product .button-cart:hover {

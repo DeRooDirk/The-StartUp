@@ -207,14 +207,8 @@
 /* -- TEAM SECTION -- */
 .team {
   background-color: #eeeeee;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-attachment: fixed;
 }
 
@@ -471,12 +465,6 @@
   background-color: #eeeeee;
   font-size: 2rem;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-family: "Berkshire Swash", cursive;
 }
 

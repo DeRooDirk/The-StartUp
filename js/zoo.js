@@ -15,5 +15,5 @@ var mySlider = $('.pogoSlider').pogoSlider({
 
   // begin van fadeIn WOW script Jquery //
 
-
+  new WOW().init();
 
