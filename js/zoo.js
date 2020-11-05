@@ -10,7 +10,7 @@ var mySlider = $('.pogoSlider').pogoSlider({
   jQuery(window).on('load', function () {
 
     /* PRE LOADER */
-    $(".preeloader").fadeOut(3000);
+    $(".preeloader").fadeOut(1900);
   });
 
   // begin van fadeIn WOW script Jquery //

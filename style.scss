@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: rgba(170, 152, 152, 0.111)000;
 }
 
 /* -- START LANDINGS PAGE -- */
@@ -199,7 +200,7 @@
 /* -- TEAM SECTION -- */
 .team {
     background-color: rgb(192, 196, 196);
-    height: 70vh;
+    height: 100vh;
     display: flex;
     align-items: center;
 
@@ -305,32 +306,22 @@
 .specials {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("./img/back3.jpg");
     background-position: center;
-    background-attachment: fixed;
-    background-color: rgba(204, 204, 204, 0.207);
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
+    background-attachment: fixed;    
+    height: 100vh;
+    width: 100%; 
     .container {
         width: 80%;
         margin: 0 auto;
-
         h2 {
             text-align: center;
             color: green;
-            font-size: 5rem;
-            margin-top: 20px;
+            font-size: 5rem;            
         }
-
         h3 {
             text-align: center;
             font-size: 3rem;
-            color: rgb(100, 165, 100);
-            margin: 30px;
+            color: rgb(100, 165, 100);            
         }
-
         h3:after {
             content: '';
             display: block;
@@ -339,13 +330,11 @@
             border-bottom: 3px solid rgba(0, 128, 0, 0.686);
             padding-top: 20px;
         }
-
         .promotions {
             display: flex;
             justify-content: space-evenly;
             position: relative;
         }
-
         .promo-foto {
             img {
                 max-width: 100%;
@@ -363,7 +352,7 @@
                 color: green;
                 font-size: 2rem;
                 text-align: center;
-                margin: 20px;
+                
             }
 
             button {
@@ -385,18 +374,13 @@
                 font-size: 0.7rem;
                 text-transform: uppercase;
                 text-align: center;
-
-
             }
-
             a:hover {
                 color: red;
             }
         }
-
         .promotion {
             position: relative;
-
             .center {
                 position: absolute;
                 left: 50%;
@@ -418,10 +402,9 @@
         }
     }
 }
-
 /* -- Socials Section -- */
 .socials {
-    height: 40vh;
+    height: 100vh;
     width: 100%;
     background-color: rgb(192, 196, 196);
     font-size: 2rem;
