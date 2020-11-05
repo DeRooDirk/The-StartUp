@@ -46,7 +46,8 @@
     position: absolute;
     width: 300px;
     height: 300px;
-    color: rgb(22, 21, 21);
+    color: green;
+    
     text-align: center;
     line-height: 200px;
     animation: a2 2s linear infinite;
