@@ -1,3 +1,5 @@
+@import "../color-scheme";
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,8 @@
 
 body {
     width: 100%;
-    background-color: lightgray;
+    background-color: $background-grey;
+    color: rgb(32, 32, 33);
 }
 
 .products {
@@ -16,12 +19,18 @@ body {
 
     .title {
         text-align: center;
+        font-family: $christmasfont;
+        font-size: 4rem;
+        font-weight: 700;
+        color: $christmasgreen;
     }
 
     .intro {
         text-align: left;
         width: 70%;
         margin: 0.9rem auto;
+        font-family: $normalfont;
+        color:rgb(32, 32, 33);
     }
 }
 
@@ -38,11 +47,16 @@ img {
     margin: 2rem;
     position: relative;
     width: 95%;
+    
 
     .content {
         padding: 3rem 0.5rem 2rem 0.5rem;
         cursor: pointer;
         background-color: white;
+        border-radius: 15px 15px 0 0;
+        color: $darkcolor;
+        font-family: $normalfont;
+
     }
 
     .image {
@@ -50,6 +64,7 @@ img {
         height: 100%;
         overflow: hidden;
         margin: 0 auto;
+        border-radius: 15px;
 
     }
 
@@ -72,6 +87,7 @@ img {
         display: flex;
         justify-content: center;
         background-color: transparent;
+        color: $darkcolor;
     }
 
     .button-cart {
@@ -79,10 +95,12 @@ img {
         width: 125px;
         background-color: transparent;
         border: 1px solid red;
+        border-radius: 15px;
+
     }
 
     .button-cart:hover {
-        border: 1px solid green;
+        border: 1px solid $christmasgreen;
     }
 
     .information {
@@ -94,10 +112,11 @@ img {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        font-family: $normalfont;
     }
 
     .rating span {
-        color: green;
+        color: $christmasgreen;
 
     }
 
@@ -115,12 +134,14 @@ img {
         font-size: 1rem;
         text-transform: uppercase;
         font-weight: bold;
+        font-family: $normalfont;
     }
 
     .price {
         padding-top: 0.6rem;
         padding-right: 0.6rem;
         display: inline-block;
+        font-family: $normalfont;
     }
 }
 
@@ -131,23 +152,34 @@ img {
     width: 60%;
     margin: 0 auto;
     padding: 1rem 0;
+    font-family: $normalfont;
+    font-size: 0.8rem;
+    color: $darkcolor;
 }
 
 .control {
     margin: 0.1rem;
     padding: 0.8rem 0.5rem;
-    width: 90px;
+    width: 100px;
     background-color: transparent;
     border: 1px solid red;
+    font-family: $normalfont;
+    border-radius: 15px;
+
 }
 
 .control:hover {
-    border: 1px solid green;
+    background-color: $christmasgreen;
+    font-family: $normalfont;
+    color: $christmascolor;
+
+
 }
 
 
 .personilased>* {
     margin: 1rem 0;
+    font-family: $normalfont;
 }
 
 
@@ -196,6 +228,12 @@ img {
 .order {
     padding-top: 3rem;
 
+    h1 {
+        font-family: $christmasfont;
+        font-size: 3rem;
+        color: $christmasgreen;
+    }
+
 }
 
 .grid-container {
@@ -203,6 +241,10 @@ img {
     grid-template-columns: auto auto auto;
     align-items: center;
     justify-items: center;
+    font-family: $normalfont;
+    color: $darkcolor;
+
+
 
     img {
         max-height: 150px;
@@ -211,6 +253,7 @@ img {
         justify-content: center;
         align-content: center;
         padding: 1rem 0;
+        color: $darkcolor;
     }
 
 }
@@ -248,7 +291,7 @@ img {
             p {
                 color: rgb(199, 184, 184);
                 margin-bottom: 10px;
-                font-family: 'Lato', sans-serif;
+                font-family: $normalfont;
                 font-weight: 400;
                 font-size: 0.8rem;
                 letter-spacing: 1px;
@@ -256,8 +299,8 @@ img {
 
             a {
                 text-decoration: none;
-                color: green;
-                font-family: 'Lato', sans-serif;
+                color: $christmasgreen;
+                font-family: $normalfont;
                 font-weight: 400;
                 font-size: 0.8rem;
                 letter-spacing: 1px;
@@ -272,7 +315,7 @@ img {
                 i {
                     margin: 15px;
                     font-size: 1.1rem;
-                    color: green;
+                    color: $christmasgreen;
 
                 }
             }
@@ -296,9 +339,9 @@ img {
             }
 
             .cc li a {
-                color: green;
+                color: $christmasgreen;
                 text-decoration: none;
-                font-family: 'Lato', sans-serif;
+                font-family: $normalfont;
                 font-weight: 400;
                 font-size: 0.8rem;
                 letter-spacing: 1px;
@@ -310,8 +353,8 @@ img {
             .footer-copyright {
 
                 .p {
-                    color: green;
-                    font-family: 'Lato', sans-serif;
+                    color: $christmasgreen;
+                    font-family: $normalfont;
                     font-weight: 400;
                     font-size: 0.8rem;
                     letter-spacing: 1px;
@@ -331,7 +374,7 @@ img {
 //*** Scrolltop **///
 
 .scrollToTop {
-    background: green none repeat scroll 0 0;
+    background: transparent none repeat scroll 0 0;
     border: 1px solid transparent;
     bottom: 20px;
     color: red;
@@ -344,14 +387,14 @@ img {
     text-align: center;
     width: 50px;
     z-index: 99;
-    border: 2px solid red;
+    border: 1px solid red;
     border-radius: 5px;
 }
 
 .scrollToTop:hover {
-    background: red;
+    background: $navcolor;
     border: 1px solid;
-    color: green;
+    color: red;
 }
 
 
@@ -384,18 +427,25 @@ nav {
 
         .middle-nav {
             display: flex;
+            font-family: $normalfont;
+            font-size: 0.8rem;
 
             p {
-                color: green;
+                color: $navcolor;
                 margin: 5px;
+                font-family:$normalfont;
+                font-size: 0.8rem;
 
                 i {
                     color: red;
+                    
                 }
 
                 a {
                     color: red;
                     text-decoration: none;
+                    font-family: $normalfont;
+                    font-size: 0.8rem;
                 }
             }
 
@@ -408,22 +458,22 @@ nav {
 
             a {
                 text-decoration: none;
-                padding: 1em;
-                font-family: 'Lato', sans-serif;
-                text-transform: uppercase;
-                font-weight: 700;
-                letter-spacing: 1px;
-                color: rgb(8, 100, 8);
-                padding: .5em;
-                border: 1px solid rgb(119, 11, 11);
-                border-radius: 5px;
-                margin: 0px 10px;
+                    padding: 1em;
+                    font-family: $normalfont;
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    color: $navcolor;
+                    padding: .5em;
+                    border: 1px solid $navcolor;
+                    border-radius: 5px;
+                    margin: 0px 10px;
 
-            }
+                }
 
-            a:hover {
-                background-color: rgb(8, 100, 8);
-                color: rgb(119, 11, 11);
+                a:hover {
+                    background-color: $navcolor;
+                    color: red;
             }
         }
     }

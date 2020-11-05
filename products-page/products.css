@@ -7,7 +7,8 @@
 
 body {
   width: 100%;
-  background-color: lightgray;
+  background-color: #eeeeee;
+  color: #202021;
 }
 
 .products {
@@ -18,12 +19,18 @@ body {
 
 .products .title {
   text-align: center;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #206a5d;
 }
 
 .products .intro {
   text-align: left;
   width: 70%;
   margin: 0.9rem auto;
+  font-family: "Open Sans", sans-serif;
+  color: #202021;
 }
 
 img {
@@ -41,6 +48,9 @@ img {
   padding: 3rem 0.5rem 2rem 0.5rem;
   cursor: pointer;
   background-color: white;
+  border-radius: 15px 15px 0 0;
+  color: #202021;
+  font-family: "Open Sans", sans-serif;
 }
 
 .product .image {
@@ -48,6 +58,7 @@ img {
   height: 100%;
   overflow: hidden;
   margin: 0 auto;
+  border-radius: 15px;
 }
 
 .product .balls {
@@ -73,6 +84,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: transparent;
+  color: #202021;
 }
 
 .product .button-cart {
@@ -80,10 +92,11 @@ img {
   width: 125px;
   background-color: transparent;
   border: 1px solid red;
+  border-radius: 15px;
 }
 
 .product .button-cart:hover {
-  border: 1px solid green;
+  border: 1px solid #206a5d;
 }
 
 .product .information {
@@ -101,10 +114,11 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
 }
 
 .product .rating span {
-  color: green;
+  color: #206a5d;
 }
 
 .product .color {
@@ -121,34 +135,44 @@ img {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: bold;
+  font-family: "Open Sans", sans-serif;
 }
 
 .product .price {
   padding-top: 0.6rem;
   padding-right: 0.6rem;
   display: inline-block;
+  font-family: "Open Sans", sans-serif;
 }
 
 .filter-buttons {
   width: 60%;
   margin: 0 auto;
   padding: 1rem 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  color: #202021;
 }
 
 .control {
   margin: 0.1rem;
   padding: 0.8rem 0.5rem;
-  width: 90px;
+  width: 100px;
   background-color: transparent;
   border: 1px solid red;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 15px;
 }
 
 .control:hover {
-  border: 1px solid green;
+  background-color: #206a5d;
+  font-family: "Open Sans", sans-serif;
+  color: white;
 }
 
 .personilased > * {
   margin: 1rem 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .slideshow-container {
@@ -197,6 +221,12 @@ img {
   padding-top: 3rem;
 }
 
+.order h1 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 3rem;
+  color: #206a5d;
+}
+
 .grid-container {
   display: -ms-grid;
   display: grid;
@@ -206,6 +236,8 @@ img {
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
+  font-family: "Open Sans", sans-serif;
+  color: #202021;
 }
 
 .grid-container img {
@@ -219,6 +251,7 @@ img {
   -ms-flex-line-pack: center;
       align-content: center;
   padding: 1rem 0;
+  color: #202021;
 }
 
 .grid-item {
@@ -252,7 +285,7 @@ img {
 .footer .container .footer-top p {
   color: #c7b8b8;
   margin-bottom: 10px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -260,8 +293,8 @@ img {
 
 .footer .container .footer-top a {
   text-decoration: none;
-  color: green;
-  font-family: 'Lato', sans-serif;
+  color: #206a5d;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -275,7 +308,7 @@ img {
 .footer .container .footer-middle p i {
   margin: 15px;
   font-size: 1.1rem;
-  color: green;
+  color: #206a5d;
 }
 
 .footer .container .footer-bottom {
@@ -300,9 +333,9 @@ img {
 }
 
 .footer .container .footer-bottom .cc li a {
-  color: green;
+  color: #206a5d;
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -310,8 +343,8 @@ img {
 }
 
 .footer .container .footer-bottom .footer-copyright .p {
-  color: green;
-  font-family: 'Lato', sans-serif;
+  color: #206a5d;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -324,7 +357,7 @@ img {
 }
 
 .scrollToTop {
-  background: green none repeat scroll 0 0;
+  background: transparent none repeat scroll 0 0;
   border: 1px solid transparent;
   bottom: 20px;
   color: red;
@@ -337,14 +370,14 @@ img {
   text-align: center;
   width: 50px;
   z-index: 99;
-  border: 2px solid red;
+  border: 1px solid red;
   border-radius: 5px;
 }
 
 .scrollToTop:hover {
-  background: red;
+  background: #c7b8b8;
   border: 1px solid;
-  color: green;
+  color: red;
 }
 
 nav {
@@ -381,11 +414,15 @@ nav .container .middle-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
 }
 
 nav .container .middle-nav p {
-  color: green;
+  color: #c7b8b8;
   margin: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
 }
 
 nav .container .middle-nav p i {
@@ -395,6 +432,8 @@ nav .container .middle-nav p i {
 nav .container .middle-nav p a {
   color: red;
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
 }
 
 nav .container .right-nav {
@@ -406,20 +445,20 @@ nav .container .right-nav {
 nav .container .right-nav a {
   text-decoration: none;
   padding: 1em;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 1px;
-  color: #086408;
+  color: #c7b8b8;
   padding: .5em;
-  border: 1px solid #770b0b;
+  border: 1px solid #c7b8b8;
   border-radius: 5px;
   margin: 0px 10px;
 }
 
 nav .container .right-nav a:hover {
-  background-color: #086408;
-  color: #770b0b;
+  background-color: #c7b8b8;
+  color: red;
 }
 
 .spacer {
