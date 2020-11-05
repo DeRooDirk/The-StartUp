@@ -1,10 +1,7 @@
 .preeloader
 {margin: 0;
-    padding: 0;
+    padding: 0;    
     
-    background-image: url(../img/bgspinner.jpg);
-    background-position: center center;
-    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;

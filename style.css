@@ -195,8 +195,6 @@
   width: 100%;
   height: 100%;
   content: "";
-  background: #000;
-  opacity: 0.4;
   z-index: -1;
 }
 
@@ -322,8 +320,8 @@
 
 /* --SPECIALS SECTION -- */
 .specials {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url("./img/back3.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("./img/back3.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("./img/back3.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./img/back3.jpg");
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
