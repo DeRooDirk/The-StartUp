@@ -154,6 +154,7 @@ img {
   color: #202021;
 }
 
+/* outline:none on button -- no border when clicked -*/
 .control {
   margin: 0.1rem;
   padding: 0.8rem 0.5rem;
@@ -162,6 +163,7 @@ img {
   border: 1px solid red;
   font-family: "Open Sans", sans-serif;
   border-radius: 15px;
+  outline: none;
 }
 
 .control:hover {

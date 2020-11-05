@@ -10,7 +10,7 @@ body {
 }
 
 .mainsectioncontact {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -86,7 +86,7 @@ nav {
 }
 
 nav .container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -165,6 +165,7 @@ nav .container .right-nav a:hover {
 .footer .container {
   width: 80%;
   margin: 0 auto;
+  border-bottom: 2px solid green;
 }
 
 .footer .container .footer-top {
@@ -258,8 +259,35 @@ nav .container .right-nav a:hover {
 }
 
 @media only screen and (max-width: 1250px) {
+  nav .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  nav .container .middle-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav .container .right-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav .container .right-nav a {
+    margin: 2px;
+  }
   .mainsectioncontact {
-    background-color: red;
+    width: 100%;
+  }
+  .mainsectioncontact .expression p {
+    font-size: 2rem;
+    margin-top: 200px;
   }
   .mainsectioncontact .contact {
     -webkit-box-orient: vertical;

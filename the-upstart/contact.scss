@@ -12,7 +12,7 @@ body {
 }
 
 .mainsectioncontact {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 
 }
@@ -25,19 +25,14 @@ body {
     font-size: 100px;
     color: $christmasgreen;    
     font-family: $christmasfont;
-
-
 }
-
 .expression {
     padding-left: 30px;
     padding-right: 30px;
     margin-left: 130px;
     margin-right: 130px;
     padding-top: 150px;
-
 }
-
 .contactform {
     border: 1px solid black;
     background-color: lightgrey;
@@ -46,17 +41,13 @@ body {
     margin-top: 150px;
     width: 500px;
     height: 600px;
-
 }
-
 .form-group {
     padding: 5px
 }
-
 .map {
     margin: 1em auto;
 }
-
 //*** Scrolltop **///
 
 
@@ -84,7 +75,6 @@ body {
     color: red;
 }
 
-
 ///*** Navbar ***///
 
 nav {
@@ -97,7 +87,7 @@ nav {
 
 
     .container {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -174,6 +164,7 @@ nav {
     .container {
         width: 80%;
         margin: 0 auto;
+        border-bottom:2px solid green;
 
         .footer-top {
             text-align: center;
@@ -276,12 +267,36 @@ nav {
 
 
 @media only screen and (max-width: 1250px){
-
+    nav{
+     
+        
+        .container{
+            flex-direction: column;
+           flex-wrap: wrap;
+            .middle-nav{
+                flex-direction: column;
+            }
+            .right-nav{
+                flex-direction: column;
+                a{
+                    margin: 2px;
+                }
+            }
+        }
+    }
     .mainsectioncontact{
-        background-color: red;
+        width: 100%;
+        .expression{
+            p{
+                font-size: 2rem;
+                margin-top: 200px;
+            }
+        }
+        
         .contact{
             flex-direction: column;
             align-items: center;
+           
         }
     }
 }
