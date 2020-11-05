@@ -63,6 +63,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .main nav .container .left-nav img {
@@ -76,6 +78,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .main nav .container .middle-nav p {
@@ -204,6 +208,7 @@
 .team {
   background-color: #eeeeee;
   height: 100vh;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -240,6 +245,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .team .container .reindeers .reindeer {
@@ -369,6 +376,8 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   position: relative;
 }
 
@@ -574,5 +583,72 @@
 .footer .container .footer-bottom .footer-copyright a {
   color: red;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main nav .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main nav .container .middle-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+  }
+  .main nav .container .right-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main nav .container .right-nav a {
+    margin: 2px;
+  }
+  .team {
+    height: 100%;
+  }
+  .team .container h2 {
+    font-size: 2rem;
+  }
+  .team .container h4 {
+    font-size: 1rem;
+  }
+  .team .container .reindeers {
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .specials {
+    height: 100%;
+  }
+  .specials .container h2 {
+    font-size: 2rem;
+  }
+  .specials .container h3 {
+    font-size: 2rem;
+  }
+  .specials .container .promotions .promotion {
+    margin: 5px;
+  }
+  .specials .container .promotions .promotion .center {
+    display: none;
+  }
+  .socials {
+    height: 70vh;
+  }
+  .socials h2 {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

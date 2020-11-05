@@ -53,6 +53,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
 
             .left-nav {
                 img {
@@ -65,6 +66,7 @@
 
             .middle-nav {
                 display: flex;
+                flex-wrap: wrap;
 
                 p {
                     color: $navcolor;
@@ -203,12 +205,10 @@
 .team {
     background-color: $background-grey;
     height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
-
-
     background-attachment: fixed;
-
     .container {
         width: 80%;
         margin: 0 auto;
@@ -234,6 +234,7 @@
         .reindeers {
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
 
             .reindeer {
                 position: relative;
@@ -340,6 +341,7 @@
         .promotions {
             display: flex;
             justify-content: space-evenly;
+            flex-wrap: wrap;
             position: relative;
         }
         .promo-foto {
@@ -535,4 +537,68 @@
     }
 
 
+}
+
+@media only screen and (max-width: 1200px){
+    .main{
+        nav{
+            flex-direction: column;
+            .container{
+                flex-direction: column;
+                .middle-nav{
+                    display: flex;
+                    text-align: center;
+                }
+                .right-nav{
+                    display: flex;
+                    flex-direction: column;
+                   
+                    a{
+                        margin: 2px;
+                    }
+                }
+            }
+        }
+    }
+    .team{
+        height: 100%;
+        .container{
+            h2{
+                font-size: 2rem;
+            }
+            h4{
+                font-size: 1rem;
+            }
+         .reindeers{
+            align-content: center;
+    }
+    }
+}
+ .specials{
+    height: 100%;
+    .container{
+        h2{
+        font-size: 2rem;
+        }
+        h3{
+            font-size: 2rem;
+        }
+        .promotions{
+            
+            .promotion{
+                margin: 5px;
+                .center {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+.socials{
+    height: 70vh;
+    h2{
+        font-size: 2rem;
+    }
+  
+}
 }
