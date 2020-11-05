@@ -5,6 +5,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: rgba(170, 152, 152, 0.111) 0;
 }
 
 /* -- START LANDINGS PAGE -- */
@@ -325,8 +326,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("./img/back3.jpg");
   background-position: center;
   background-attachment: fixed;
-  background-color: rgba(204, 204, 204, 0.207);
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
