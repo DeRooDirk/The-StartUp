@@ -1,6 +1,4 @@
-/* font-family: 'Lato', sans-serif;*/
-
-/* --  Small Reset -- */
+@import "color-scheme";
 * {
     padding: 0;
     margin: 0;
@@ -14,7 +12,7 @@
     width: 100%;
     /*--- SCROLL -- */
     .scrollToTop {
-        background:green none repeat scroll 0 0;
+        background:transparent none repeat scroll 0 0;
         border: 1px solid transparent;
         bottom: 20px;
         color: red;
@@ -27,14 +25,14 @@
         text-align: center;
         width: 50px;
         z-index: 99;
-        border: 2px solid red;
+        border: 1px solid red;
         border-radius: 5px;
     }
     
     .scrollToTop:hover {
-        background: red;
+        background: $navcolor;
         border: 1px solid;
-        color: green;
+        color: red;
     }
     .scrolled{
         color: red;
@@ -69,16 +67,21 @@
                 display: flex;
 
                 p {
-                    color: green;
+                    color: $navcolor;
                     margin: 5px;
+                    font-family:$normalfont;
+                    font-size: 0.8rem;
 
                     i {
                         color: red;
+                        
                     }
 
                     a {
                         color: red;
                         text-decoration: none;
+                        font-family: $normalfont;
+                        font-size: 0.8rem;
                     }
                 }
 
@@ -92,21 +95,21 @@
                 a {
                     text-decoration: none;
                     padding: 1em;
-                    font-family: 'Lato', sans-serif;
+                    font-family: $normalfont;
                     text-transform: uppercase;
-                    font-weight: 700;
+                    font-weight: 400;
                     letter-spacing: 1px;
-                    color: rgb(8, 100, 8);
+                    color: $navcolor;
                     padding: .5em;
-                    border: 1px solid rgb(119, 11, 11);
+                    border: 1px solid $navcolor;
                     border-radius: 5px;
                     margin: 0px 10px;
 
                 }
 
                 a:hover {
-                    background-color: rgb(8, 100, 8);
-                    color: rgb(119, 11, 11);
+                    background-color: $navcolor;
+                    color: red;
                 }
             }
         }
@@ -119,7 +122,7 @@
         width: 100%;
         position: relative;
         font-weight: 800;
-        font-family: 'Lato', sans-serif;
+        font-family: $normalfont;
 
         .pogoSlider {
             height: 100%;
@@ -154,19 +157,19 @@
                 padding-top: 5%;
 
                 h2 {
-                    color: green;
+                    color: $christmascolor;
                     margin: 10px;
-                    font-family: 'Lato', sans-serif;
+                    font-family: $christmasfont;
                     font-weight: 700;
-                    font-size: 3rem;
+                    font-size: 4rem;
                 }
 
                 h1 {
-                    color: rgb(119, 11, 11);
+                    color: $christmascolor;
                     margin: 10px;
-                    font-family: 'Lato', sans-serif;
+                    font-family: $christmasfont;
                     font-weight: 700;
-                    font-size: 3rem;
+                    font-size: 4rem;
                 }
 
                 h3 {
@@ -174,8 +177,8 @@
 
                     a {
                         text-decoration: none;
-                        color: green;
-                        border: 1px solid green;
+                        color: $navcolor;
+                        border: 1px solid $navcolor;
                         padding: 10px 20px;
                     }
                 }
@@ -198,7 +201,7 @@
 
 /* -- TEAM SECTION -- */
 .team {
-    background-color: rgb(192, 196, 196);
+    background-color: $background-grey;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -212,17 +215,19 @@
 
 
         h2 {
-            color: green;
+            font-family: $christmasfont;
             text-align: center;
             font-size: 5rem;
+            color: $christmasgreen;
 
         }
 
         h4 {
-            color: green;
+            font-family:$christmasfont;
             text-align: center;
             font-size: 3rem;
             margin-bottom: 50px;
+            color: $christmasgreen;
 
         }
 
@@ -257,7 +262,7 @@
                             padding: 5px 0;
                             opacity: 0.5;
                             transition: .4s;
-                            color: green;
+                            color: $navcolor;
                         }
                     }
                 }
@@ -283,16 +288,17 @@
             .text {
                 h3 {
                     text-align: center;
-                    color: green;
+                    color: $christmasgreen;
+                    font-family: $normalfont;
 
 
                 }
 
                 p {
 
-                    color: green;
+                    color: $christmasgreen;
                     text-align: center;
-
+                    font-family: $normalfont;
                     margin: 0 auto;
 
                 }
@@ -313,13 +319,15 @@
         margin: 0 auto;
         h2 {
             text-align: center;
-            color: green;
-            font-size: 5rem;            
+            color: $christmascolor;
+            font-size: 5rem;
+            font-family:$christmasfont;            
         }
         h3 {
             text-align: center;
             font-size: 3rem;
-            color: rgb(100, 165, 100);            
+            color: $christmascolor;    
+            font-family:$christmasfont;        
         }
         h3:after {
             content: '';
@@ -348,14 +356,14 @@
             justify-content: space-between;
 
             h4 {
-                color: green;
+                color: $christmascolor;
                 font-size: 2rem;
                 text-align: center;
                 
             }
 
             button {
-                border: 1px solid red;
+                border: 1px solid $christmascolor;
                 background-color: rgba(255, 255, 255, 0);
                 padding: 10px 20px;
                 width: 50%;
@@ -363,13 +371,13 @@
             }
 
             button:hover {
-                background-color: green;
+                background-color: $christmasgreen;
             }
 
             a {
                 text-decoration: none;
-                color: green;
-                font-family: 'Lato', sans-serif;
+                color: $christmascolor;
+                font-family: $normalfont;
                 font-size: 0.7rem;
                 text-transform: uppercase;
                 text-align: center;
@@ -406,11 +414,12 @@
 .socials {
     height: 100vh;
     width: 100%;
-    background-color: rgb(192, 196, 196);
+    background-color: $background-grey;
     font-size: 2rem;
     text-align: center;
     display: flex;
     align-items: center;
+    font-family: $christmasfont;
 
     h2 {
         width: 80%;
@@ -420,7 +429,7 @@
     }
 
     span {
-        color: green;
+        color: $christmasgreen;
     }
 }
 
@@ -445,7 +454,7 @@
             p {
                 color: rgb(199, 184, 184);
                 margin-bottom: 10px;
-                font-family: 'Lato', sans-serif;
+                font-family: $normalfont;
                 font-weight: 400;
                 font-size: 0.8rem;
                 letter-spacing: 1px;
@@ -453,8 +462,8 @@
 
             a {
                 text-decoration: none;
-                color: green;
-                font-family: 'Lato', sans-serif;
+                color: $christmasgreen;
+                font-family: $normalfont;
                 font-weight: 400;
                 font-size: 0.8rem;
                 letter-spacing: 1px;
@@ -469,7 +478,7 @@
                 i {
                     margin: 15px;
                     font-size: 1.1rem;
-                    color: green;
+                    color: $christmasgreen;
 
                 }
             }
@@ -493,9 +502,9 @@
             }
 
             .cc li a {
-                color: green;
+                color: $christmasgreen;
                 text-decoration: none;
-                font-family: 'Lato', sans-serif;
+                font-family: $normalfont;
                 font-weight: 400;
                 font-size: 0.8rem;
                 letter-spacing: 1px;
@@ -507,8 +516,8 @@
             .footer-copyright {
                 
                 .p {
-                    color: green;
-                    font-family: 'Lato', sans-serif;
+                    color: $christmasgreen;
+                    font-family: $normalfont;
                     font-weight: 400;
                     font-size: 0.8rem;
                     letter-spacing: 1px;
@@ -527,6 +536,3 @@
 
 
 }
-
-
-

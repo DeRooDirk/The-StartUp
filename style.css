@@ -1,5 +1,3 @@
-/* font-family: 'Lato', sans-serif;*/
-/* --  Small Reset -- */
 * {
   padding: 0;
   margin: 0;
@@ -18,7 +16,7 @@
 }
 
 .main .scrollToTop {
-  background: green none repeat scroll 0 0;
+  background: transparent none repeat scroll 0 0;
   border: 1px solid transparent;
   bottom: 20px;
   color: red;
@@ -31,14 +29,14 @@
   text-align: center;
   width: 50px;
   z-index: 99;
-  border: 2px solid red;
+  border: 1px solid red;
   border-radius: 5px;
 }
 
 .main .scrollToTop:hover {
-  background: red;
+  background: #c7b8b8;
   border: 1px solid;
-  color: green;
+  color: red;
 }
 
 .main .scrolled {
@@ -81,8 +79,10 @@
 }
 
 .main nav .container .middle-nav p {
-  color: green;
+  color: #c7b8b8;
   margin: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
 }
 
 .main nav .container .middle-nav p i {
@@ -92,6 +92,8 @@
 .main nav .container .middle-nav p a {
   color: red;
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
 }
 
 .main nav .container .right-nav {
@@ -103,20 +105,20 @@
 .main nav .container .right-nav a {
   text-decoration: none;
   padding: 1em;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 1px;
-  color: #086408;
+  color: #c7b8b8;
   padding: .5em;
-  border: 1px solid #770b0b;
+  border: 1px solid #c7b8b8;
   border-radius: 5px;
   margin: 0px 10px;
 }
 
 .main nav .container .right-nav a:hover {
-  background-color: #086408;
-  color: #770b0b;
+  background-color: #c7b8b8;
+  color: red;
 }
 
 .main .slider-area {
@@ -124,7 +126,7 @@
   width: 100%;
   position: relative;
   font-weight: 800;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .main .slider-area .pogoSlider {
@@ -162,19 +164,19 @@
 }
 
 .main .slider-area .pogoSlider .pogoSlider-slide h2 {
-  color: green;
+  color: white;
   margin: 10px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Berkshire Swash", cursive;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .main .slider-area .pogoSlider .pogoSlider-slide h1 {
-  color: #770b0b;
+  color: white;
   margin: 10px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Berkshire Swash", cursive;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .main .slider-area .pogoSlider .pogoSlider-slide h3 {
@@ -183,8 +185,8 @@
 
 .main .slider-area .pogoSlider .pogoSlider-slide h3 a {
   text-decoration: none;
-  color: green;
-  border: 1px solid green;
+  color: #c7b8b8;
+  border: 1px solid #c7b8b8;
   padding: 10px 20px;
 }
 
@@ -200,7 +202,7 @@
 
 /* -- TEAM SECTION -- */
 .team {
-  background-color: #c0c4c4;
+  background-color: #eeeeee;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -217,16 +219,18 @@
 }
 
 .team .container h2 {
-  color: green;
+  font-family: "Berkshire Swash", cursive;
   text-align: center;
   font-size: 5rem;
+  color: #206a5d;
 }
 
 .team .container h4 {
-  color: green;
+  font-family: "Berkshire Swash", cursive;
   text-align: center;
   font-size: 3rem;
   margin-bottom: 50px;
+  color: #206a5d;
 }
 
 .team .container .reindeers {
@@ -285,7 +289,7 @@
   opacity: 0.5;
   -webkit-transition: .4s;
   transition: .4s;
-  color: green;
+  color: #c7b8b8;
 }
 
 .team .container .reindeers .reindeer .overlay:hover {
@@ -309,12 +313,14 @@
 
 .team .container .reindeers .text h3 {
   text-align: center;
-  color: green;
+  color: #206a5d;
+  font-family: "Open Sans", sans-serif;
 }
 
 .team .container .reindeers .text p {
-  color: green;
+  color: #206a5d;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
   margin: 0 auto;
 }
 
@@ -335,14 +341,16 @@
 
 .specials .container h2 {
   text-align: center;
-  color: green;
+  color: white;
   font-size: 5rem;
+  font-family: "Berkshire Swash", cursive;
 }
 
 .specials .container h3 {
   text-align: center;
   font-size: 3rem;
-  color: #64a564;
+  color: white;
+  font-family: "Berkshire Swash", cursive;
 }
 
 .specials .container h3:after {
@@ -384,13 +392,13 @@
 }
 
 .specials .container .promo-tekst h4 {
-  color: green;
+  color: white;
   font-size: 2rem;
   text-align: center;
 }
 
 .specials .container .promo-tekst button {
-  border: 1px solid red;
+  border: 1px solid white;
   background-color: rgba(255, 255, 255, 0);
   padding: 10px 20px;
   width: 50%;
@@ -398,13 +406,13 @@
 }
 
 .specials .container .promo-tekst button:hover {
-  background-color: green;
+  background-color: #206a5d;
 }
 
 .specials .container .promo-tekst a {
   text-decoration: none;
-  color: green;
-  font-family: 'Lato', sans-serif;
+  color: white;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.7rem;
   text-transform: uppercase;
   text-align: center;
@@ -451,7 +459,7 @@
 .socials {
   height: 100vh;
   width: 100%;
-  background-color: #c0c4c4;
+  background-color: #eeeeee;
   font-size: 2rem;
   text-align: center;
   display: -webkit-box;
@@ -460,6 +468,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Berkshire Swash", cursive;
 }
 
 .socials h2 {
@@ -470,7 +479,7 @@
 }
 
 .socials span {
-  color: green;
+  color: #206a5d;
 }
 
 /* --Footer Secton -- */
@@ -496,7 +505,7 @@
 .footer .container .footer-top p {
   color: #c7b8b8;
   margin-bottom: 10px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -504,8 +513,8 @@
 
 .footer .container .footer-top a {
   text-decoration: none;
-  color: green;
-  font-family: 'Lato', sans-serif;
+  color: #206a5d;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -519,7 +528,7 @@
 .footer .container .footer-middle p i {
   margin: 15px;
   font-size: 1.1rem;
-  color: green;
+  color: #206a5d;
 }
 
 .footer .container .footer-bottom {
@@ -544,9 +553,9 @@
 }
 
 .footer .container .footer-bottom .cc li a {
-  color: green;
+  color: #206a5d;
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -554,8 +563,8 @@
 }
 
 .footer .container .footer-bottom .footer-copyright .p {
-  color: green;
-  font-family: 'Lato', sans-serif;
+  color: #206a5d;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
