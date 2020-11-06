@@ -526,3 +526,31 @@ height: 2rem;
         margin-left: 1rem;
     }
 }
+
+@media only screen and (max-width: 1200px){
+    
+        nav{
+            
+            .container{
+                flex-direction: column;
+               
+                .middle-nav{
+                    display: flex;
+                    text-align: center;
+                    display: none;
+                    
+                }
+                .right-nav{
+                    display: flex;
+                    
+                    
+                   
+                    a{
+                        margin: 2px;
+                        font-size: .6rem;
+                    }
+                }
+            }
+        }
+
+    }

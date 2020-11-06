@@ -509,4 +509,29 @@ nav .container .right-nav a:hover {
     margin-left: 1rem;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  nav .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav .container .middle-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    display: none;
+  }
+  nav .container .right-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav .container .right-nav a {
+    margin: 2px;
+    font-size: .6rem;
+  }
+}
 /*# sourceMappingURL=products.css.map */
