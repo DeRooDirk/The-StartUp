@@ -44,6 +44,11 @@ body {
   height: 600px;
 }
 
+.contact .contactform button {
+  background-color: #206a5d;
+  border: transparent;
+}
+
 .form-group {
   padding: 5px;
 }
