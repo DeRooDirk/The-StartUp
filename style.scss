@@ -225,7 +225,7 @@
             font-family: $christmasfont;
             text-align: center;
             font-size: 5rem;
-            color: $christmasgreen;
+            color: $christmascolor;
 
         }
 
@@ -234,7 +234,7 @@
             text-align: center;
             font-size: 3rem;
             margin-bottom: 50px;
-            color: $christmasgreen;
+            color: $christmascolor;
 
         }
 
@@ -270,7 +270,7 @@
                             padding: 5px 0;
                             opacity: 0.5;
                             transition: .4s;
-                            color: $christmasgreen;
+                            color: $christmascolor;
                         }
                     }
                 }
@@ -296,7 +296,7 @@
             .text {
                 h3 {
                     text-align: center;
-                    color: $christmasgreen;
+                    color: $christmascolor;
                     font-family: $normalfont;
 
 
@@ -304,10 +304,11 @@
 
                 p {
 
-                    color: $christmasgreen;
+                    color: $christmascolor;
                     text-align: center;
                     font-family: $normalfont;
                     margin: 0 auto;
+                    font-size: 0.8rem;
 
                 }
             }
@@ -328,14 +329,14 @@
         margin: 0 auto;
         h2 {
             text-align: center;
-            color: $christmascolor;
+            color: $christmasgreen;
             font-size: 5rem;
             font-family:$christmasfont;            
         }
         h3 {
             text-align: center;
             font-size: 3rem;
-            color: $christmascolor;    
+            color: $christmasgreen;    
             font-family:$christmasfont;        
         }
         h3:after {
@@ -358,7 +359,8 @@
                 max-width: 100%;
                 height: auto;
                 display: block;
-                width: 300px;             
+                width: 300px;   
+                border-radius: 15px;          
             }
         }
 
@@ -368,14 +370,14 @@
             justify-content: space-between;
 
             h4 {
-                color: $christmascolor;
+                color: $christmasgreen;
                 font-size: 2rem;
                 text-align: center;
                 
             }
 
             button {
-                border: 1px solid $christmascolor;
+                border: 1px solid $christmasgreen;
                 background-color: rgba(255, 255, 255, 0);
                 padding: 10px 20px;
                 width: 50%;
@@ -388,7 +390,7 @@
 
             a {
                 text-decoration: none;
-                color: $christmascolor;
+                color: $christmasgreen;
                 font-family: $normalfont;
                 font-size: 0.7rem;
                 text-transform: uppercase;
