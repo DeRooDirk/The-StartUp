@@ -3,17 +3,16 @@
 
 var mySlider = $('.pogoSlider').pogoSlider({
     pauseOnHover: false
-  }).data('plugin_pogoSlider');
+}).data('plugin_pogoSlider');
 
-  /*- End  Pogo-Slider -*/ 
+/*- End  Pogo-Slider -*/
 
-  jQuery(window).on('load', function () {
+jQuery(window).on('load', function() {
 
     /* PRE LOADER */
-    $(".preeloader").fadeOut(900);
-  });
+    $(".preeloader").fadeOut(3900);
+});
 
-  // begin van fadeIn WOW script Jquery //
+// begin van fadeIn WOW script Jquery //
 
-  new WOW().init();
-
+new WOW().init();

@@ -1,14 +1,14 @@
-.preeloader
-{margin: 0;
-    padding: 0;    
-    
+.preeloader {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-.preloader-spinner{
+
+.preloader-spinner {
     width: 300px;
     height: 300px;
     box-sizing: border-box;
@@ -16,9 +16,10 @@
     border-top: 10px solid #e74c3c;
     position: relative;
     animation: a1 2s linear infinite;
-  }
-  
-  .preloader-spinner::before,.preloader-spinner::after{
+}
+
+.preloader-spinner::before,
+.preloader-spinner::after {
     content: '';
     width: 300px;
     height: 300px;
@@ -27,38 +28,36 @@
     top: -10px;
     box-sizing: border-box;
     border-radius: 50%;
-  }
-  
-  .preloader-spinner::before{
+}
+
+.preloader-spinner::before {
     border-top: 10px solid #af5a0f;
     transform: rotate(120deg);
-  }
-  
-  .preloader-spinner::after{
+}
+
+.preloader-spinner::after {
     border-top: 10px solid #295f83;
     transform: rotate(240deg);
-  }
-  
-  .preloader-spinner span{
+}
+
+.preloader-spinner span {
     position: absolute;
     width: 300px;
     height: 300px;
     color: green;
-    
     text-align: center;
     line-height: 200px;
     animation: a2 2s linear infinite;
-  }
-  
-  @keyframes a1 {
-    to{
-      transform: rotate(360deg);
+}
+
+@keyframes a1 {
+    to {
+        transform: rotate(360deg);
     }
-  }
-  
-  @keyframes a2 {
-    to{
-      transform: rotate(-360deg);
+}
+
+@keyframes a2 {
+    to {
+        transform: rotate(-360deg);
     }
-  }
-  
+}
