@@ -1,11 +1,15 @@
 .preeloader {
     margin: 0;
     padding: 0;
-    background-color: cadetblue;
+    background-color: rgba(95, 158, 160, 0);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+body {
+    background-color: #e74d3e;
 }
 
 .preloader-spinner {
